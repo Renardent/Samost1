@@ -1,0 +1,88 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 17px;
+    color: #926239;
+    line-height: 1.6;
+}
+
+#header {
+    height: 100vh;
+    background-image: url(https://traversymedia.com/downloads/assets/beachshowcase.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 0 20px;
+    transition:all 0.8s ease;
+}
+
+#header p {
+    font-size: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+}
+
+#header h1 {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1.2;
+    padding-top: 20%;
+    text-transform: capitalize;
+}
+
+#header .button {
+    font-size:18px;
+    color: #926239;
+    background-color: rgba(240, 248, 255, 0.196);
+    align-content: center;
+    border: #926239 solid 1px;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 14px 20px;
+    margin-top: 50px;
+}
+
+#header .button:hover {
+    color: white;
+    background-color:#926239;
+}
+
+#section-a {
+    background-color: #926239;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#section-b {
+    background-color: white;
+    color:#926239;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+#section-c {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+div {
+    padding: 16px;
+}
+
+#section-c .box-1,.box-3 {
+    background-color: #926239;
+    color: white;
+}
+
+.box-1,.box-2,.box-3 {
+    width: 31%;
+    display: inline-block;
+}
+
